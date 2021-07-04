@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>update employee</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../../../forms_style.css">
+</head>
+
+<body>
+
+<h4>Παρακαλώ εισάγετε τον ΑΦΜ του εργαζομένου.</h4>
+
+<form method="post" action="update_e.php">
+	<div class="row">
+		<div class="col-25">
+			<label>ΑΦΜ</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="irs_num" placeholder="ΑΦΜ...">
+		</div>
+	</div>
+
+<h4>Εισάγετε τις νέες τιμές όσων θέλετε να επεξεργαστείτε:</h4>
+
+<div class="row">
+		<div class="col-25">
+			<label>Οδός</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="str" placeholder="Οδός...">
+		</div>
+    </div>
+    
+	<div class="row">
+		<div class="col-25">
+			<label>Αριθμός</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="str_num" placeholder="Αριθμός...">
+		</div>
+    </div>
+    
+	<div class="row">
+		<div class="col-25">
+			<label>Τ.Κ.</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="post_code" placeholder="Ταχυδρομικός κώδικας...">
+		</div>
+    </div>
+    
+	<div class="row">
+		<div class="col-25">
+			<label>Πόλη</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="city" placeholder="Πόλη...">
+		</div>
+    </div>
+    
+	<div class="row">
+		<div class="col-25">
+			<label>Τίτλος ξενοδοχείου εργασίας</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="hot_name" placeholder="Τίτλος ξενοδοχείου εργασίας...">
+		</div>
+    </div>
+	
+	<div class="row">
+		<div class="col-25">
+			<label>Ημερομηνία λήξης συμβολαίου</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="finish_date" placeholder="YYYY-MM-DD...">
+		</div>
+    </div>
+	
+	<div class="row">
+		<div class="col-25">
+			<label>Θέση εργασίας</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="position" placeholder="Θέση εργασίας...">
+		</div>
+    </div>
+	<br>
+	<div class="row">
+		<input type="submit" value="Υποβολή">
+    </div>
+</form>
+
+
+</body>
+</html>

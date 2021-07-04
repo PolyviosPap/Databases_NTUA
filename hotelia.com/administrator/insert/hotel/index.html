@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>new hotel</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../../../forms_style.css">
+</head>
+
+<body>
+
+<h4>Παρακαλώ εισάγετε τα στοιχεία του νέου ξενοδοχείου</h4>
+
+<form method="post" action="new_h.php">
+	<div class="row">
+		<div class="col-25">
+			<label>Τίτλος ξενοδοχείου*</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="hot_name" placeholder="Τίτλος ξενοδοχείου...">
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-25">
+			<label>Τίτλος αλυσίδας*</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="hot_gr_name" placeholder="Τίτλος αλυσίδας...">
+		</div>
+	</div>
+    
+	<div class="row">
+		<div class="col-25">
+			<label>Οδός*</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="str" placeholder="Οδός...">
+		</div>
+    </div>
+    
+	<div class="row">
+		<div class="col-25">
+			<label>Αριθμός*</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="str_num" placeholder="Αριθμός...">
+		</div>
+    </div>
+    
+	<div class="row">
+		<div class="col-25">
+			<label>Τ.Κ.*</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="post_code" placeholder="Ταχυδρομικός κώδικας...">
+		</div>
+    </div>
+    
+	<div class="row">
+		<div class="col-25">
+			<label>Πόλη*</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="city" placeholder="Πόλη...">
+		</div>
+    </div>
+    
+	<div class="row">
+		<div class="col-25">
+			<label>Αριθμός δωματίων*</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="num_of_rooms" placeholder="Αριθμός δωματίων...">
+		</div>
+    </div>
+	
+	<div class="row">
+		<div class="col-25">
+			<label>Αστέρια*</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="stars" placeholder="Αστέρια...">
+		</div>
+    </div>
+	<br>
+	<div class="row">
+		<input type="submit" value="Υποβολή">
+    </div>
+</form>
+
+<p>Τα πεδία με * είναι υποχρεωτικά.</p>
+
+</body>
+</html>

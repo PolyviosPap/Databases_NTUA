@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>delete hotel</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../../../forms_style.css">
+
+	<style type="text/css">
+		.but {
+			background-color:	rgb(180, 0, 0);
+			color: white;
+			padding: 12px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			float: right;
+		}
+	</style>
+	
+	<script type="text/javascript">
+		function confSubmit(form) {
+			if (confirm("Είστε σίγουρος πως θέλετε να διαγράψετε το παρακάτω ξενοδοχείο; Η διαγραφή είναι οριστική.")) {
+			form.submit();
+			}
+		}
+	</script>
+	
+</head>
+
+<body>
+
+<h4>Παρακαλώ εισάγετε τον τίτλο του ξενοδοχείου που θέλετε να διαγράψετε</h4>
+
+<form method="post" action="delete_h.php">
+	<div class="row">
+		<div class="col-25">
+			<label>Τίτλος ξενοδοχείου</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="hot_name" placeholder="Τίτλος ξενοδοχείου...">
+		</div>
+	</div>
+	<br>
+	<div class="row">
+		<input class="but" type="button" onClick="confSubmit(this.form);" value="Διαγραφή">
+    </div>
+</form>
+
+
+</body>
+</html>

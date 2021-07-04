@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>new rent</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../../../../forms_style.css">
+</head>
+
+<body>
+
+<h4>Παρακαλώ εισάγετε τα στοιχεία της νέας κράτησης.</h4>
+
+<form method="post" action="new_rent.php">
+	<div class="row">
+		<div class="col-25">
+			<label>ΑΦΜ υπαλλήλου*</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="irs_num_emp" placeholder="ΑΦΜ υπαλλήλου...">
+		</div>
+    </div>
+	
+	<div class="row">
+		<div class="col-25">
+			<label>ΑΦΜ πελάτη*</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="irs_num_cus" placeholder="ΑΦΜ πελάτη...">
+		</div>
+    </div>
+	
+	<div class="row">
+		<div class="col-25">
+			<label>Κωδικός δωματίου*</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="room_id" placeholder="Κωδικός δωματίου*...">
+		</div>
+    </div>
+    
+	<div class="row">
+		<div class="col-25">
+			<label>Ημερομηνία άφιξης*</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="start_date" placeholder="YYYY-MM-DD...">
+		</div>
+    </div>
+	
+	<div class="row">
+		<div class="col-25">
+			<label>Ημερομηνία αναχώρησης*</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="finish_date" placeholder="YYYY-MM-DD...">
+		</div>
+    </div>
+	
+	<div class="row">
+		<div class="col-25">
+			<label>Μέθοδος*</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="method" placeholder="Μέθοδος...">
+		</div>
+    </div>
+    
+	<div class="row">
+		<div class="col-25">
+			<label>Ποσό*</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="amount" placeholder="Ποσό...">
+		</div>
+    </div>
+	<br>
+	<div class="row but">
+		<input type="submit" value="Υποβολή">
+    </div>
+</form>
+
+<p>Τα πεδία με * είναι υποχρεωτικά.</p>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>new rent</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../../../forms_style.css">
+</head>
+
+<body>
+
+<h4>Παρακαλώ εισάγετε το ΑΦΜ σας.</h4>
+
+<form method="post" action="new_rent.php">
+	<div class="row">
+		<div class="col-25">
+			<label>ΑΦΜ*</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="irs_num" placeholder="ΑΦΜ...">
+		</div>
+    </div>
+	
+    <h4>Εισάγετε τον κωδικό της κράτησης</h4>
+	
+	<div class="row">
+		<div class="col-25">
+			<label>Κωδικός κράτησης*</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="res_id" placeholder="Κωδικός κράτησης...">
+		</div>
+    </div>
+    
+	<h4>Εισάγετε τα στοιχεία της πληρωμής</h4>
+	
+	<div class="row">
+		<div class="col-25">
+			<label>Μέθοδος*</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="method" placeholder="Μέθοδος...">
+		</div>
+    </div>
+    
+	<div class="row">
+		<div class="col-25">
+			<label>Ποσό*</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="amount" placeholder="Ποσό...">
+		</div>
+    </div>
+	<br>
+	<div class="row but">
+		<input type="submit" value="Υποβολή">
+    </div>
+</form>
+
+<form method="post" action="\hotelia.com\administrator\insert\rent\brand_new_rent">
+	<h4>Ή δημιουργήστε μια εξ ολοκλήρου νέα κράτηση</h4>
+	<div class="row but">
+		<input type="submit" value="Νέα κράτηση">
+    </div>
+</form>
+
+<p>Τα πεδία με * είναι υποχρεωτικά.</p>
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+body {
+	font-family: arial;
+}
+
+#table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table td, #table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#table tr:nth-child(even){background-color: #f2f2f2;}
+
+#table tr:hover {background-color: #ddd;}
+
+#table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(30, 65, 95);
+    color: white;
+}
+
+a.link:hover { 
+	color: rgb(0,0,0);
+}
+
+
+.third-level-menu {
+    position: absolute;
+    top: 0;
+    right: -150px;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.third-level-menu > li {
+	height: 50px;
+    background: rgb(200, 200, 200);
+}
+
+.third-level-menu > li:hover {
+	background: rgb(140, 180, 215);
+}
+
+.second-level-menu {
+    position: absolute;
+	top: 50px;
+    left: 0;
+    width: 250px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.second-level-menu > li {
+    position: relative;
+	height: 50px;
+	background: rgb(150, 150, 150);
+}
+.second-level-menu > li:hover {
+	background-color:	rgb(70, 130, 185);
+}
+
+.top-level-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+	width:100%;
+	background: rgb(35, 65, 95);
+	height: 50px;
+}
+
+.top-level-menu > li {
+    position: relative;
+    float: left;
+    height: 50px;
+    width: 250px;
+    background: rgb(35, 65, 95);
+}
+
+.top-level-menu li:hover > ul {
+    display: inline;
+}
+
+.top-level-menu a {
+	color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0 0 0 10px;
+    display: block;
+    line-height: 50px;
+}
+
+.link a:hover { 
+	color: rgb(0,0,0);
+}
+
+#table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table td, #table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#table tr:nth-child(even){background-color: #f2f2f2;}
+
+#table tr:hover {background-color: #ddd;}
+
+#table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(30, 65, 95);
+    color: white;
+}

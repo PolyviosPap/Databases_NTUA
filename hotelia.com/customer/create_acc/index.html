@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>δημιουργία λογαριασμού</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../../customer_style.css">
+</head>
+
+<body>
+
+<ul class="top-level-menu">
+    <li>
+        <a href="../">Αναζήτηση</a>
+    </li>
+	
+	<li>
+        <a href="">Δημιουργία λογαριασμού</a>
+    </li>
+	
+	<li>
+        <a href="../hotel_info">Πληροφορίες ξενοδοχείων</a>
+    </li>
+	
+	<li>
+        <a href="../info">Ποιοί είμαστε</a>
+    </li>
+</ul>
+
+<h4>Παρακαλώ εισάγετε τα στοιχεία σας.</h4>
+
+<form method="post" action="new_c.php">
+	<div class="row">
+		<div class="col-25">
+			<label>Όνομα*</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="f_name" placeholder="Όνομα...">
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-25">
+			<label>Επώνυμο*</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="l_name" placeholder="Επώνυμο...">
+		</div>
+	</div>
+    
+	<div class="row">
+		<div class="col-25">
+			<label>ΑΦΜ*</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="irs_num" placeholder="ΑΦΜ...">
+		</div>
+    </div>
+    
+	<div class="row">
+		<div class="col-25">
+			<label>Αριθμός κοινωνικής ασφάλειας*</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="soc_sec_num" placeholder="Αριθμός κοινωνικής ασφάλειας...">
+		</div>
+    </div>
+    
+	<div class="row">
+		<div class="col-25">
+			<label>Οδός*</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="str" placeholder="Οδός...">
+		</div>
+    </div>
+    
+	<div class="row">
+		<div class="col-25">
+			<label>Αριθμός*</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="str_num" placeholder="Αριθμός...">
+		</div>
+    </div>
+    
+	<div class="row">
+		<div class="col-25">
+			<label>Τ.Κ.*</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="post_code" placeholder="Ταχυδρομικός κώδικας...">
+		</div>
+    </div>
+    
+	<div class="row">
+		<div class="col-25">
+			<label>Πόλη*</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="city" placeholder="Πόλη...">
+		</div>
+    </div>
+	<br>
+	<div class="row">
+		<input type="submit" value="Υποβολή">
+    </div>
+</form>
+
+<p>Τα πεδία με * είναι υποχρεωτικά.</p>
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Αναζήτηση</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	<link rel="stylesheet" type="text/css" href="../customer_style.css">
+</head>
+<body>
+
+<ul class="top-level-menu">
+    <li>
+        <a href="">Αναζήτηση</a>
+    </li>
+	
+	<li>
+        <a href="create_acc">Δημιουργία λογαριασμού</a>
+    </li>
+	
+	<li>
+        <a href="hotel_info">Πληροφορίες ξενοδοχείων</a>
+    </li>
+	
+	<li>
+        <a href="info">Ποιοί είμαστε</a>
+    </li>
+</ul>
+
+<h3>Καλωσορίσατε στην hotelia.com!</h3><br>
+<h4>Κάντε μια αναζήτηση δωματίου:</h4>
+
+<form method="post" action="search.php">
+	<div class="row">
+		<div class="col-25">
+			<label>ΑΦΜ</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="irs_num" placeholder="ΑΦΜ...">
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-25">
+			<label>Ημερομηνία άφιξης</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="arr_date" placeholder="YYYY-MM-DD...">
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-25">
+			<label>Ημερομηνία αναχώρησης</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="dep_date" placeholder="YYYY-MM-DD...">
+		</div>
+	</div>
+    
+	<div class="row">
+		<div class="col-25">
+			<label>Αριθμός ατόμων</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="cap" placeholder="Αριθμός ατόμων...">
+		</div>
+    </div>
+    
+	<div class="row">
+		<div class="col-25">
+			<label>Πόλη</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="city" placeholder="Πόλη...">
+		</div>
+    </div>
+    
+	<div class="row">
+		<div class="col-25">
+			<label>Ξενοδοχείο</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="hot_name" placeholder="Τίτλος ξενοδοχείου...">
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-25">
+			<label>Κατηγορία ξενοδοχείου</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="stars" placeholder="Αστέρια...">
+		</div>
+    </div>
+    
+	<div class="row">
+		<div class="col-25">
+			<label>Παροχές</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="am1" placeholder="Παροχές...">
+		</div>
+    </div>
+    
+	<div class="row">
+		<div class="col-25">
+			<label></label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="am2" placeholder="Παροχές...">
+		</div>
+    </div>
+	
+	<div class="row">
+		<div class="col-25">
+			<label></label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="am3" placeholder="Παροχές...">
+		</div>
+    </div>
+	<br>
+	<div class="row but">
+		<input type="submit" value="Αναζήτηση">
+    </div>
+</form>
+	
+</body>
+</html>
