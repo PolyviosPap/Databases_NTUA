@@ -1,2 +1,6 @@
 # Databases NTUA
-A project for databases course in NTUA, for an imaginary hotel, written in sql and php.
+A project for databases course in NTUA, for an imaginary hotel.
+
+* Front-end: html, CSS.
+* Back-end: php.
+* Database: SQL.
